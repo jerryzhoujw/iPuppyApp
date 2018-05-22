@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		532F37B520B40E9800EE7ACC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 532F37B420B40E9800EE7ACC /* Cartfile */; };
+		532F37B920B411E700EE7ACC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 532F37B820B411E700EE7ACC /* .gitignore */; };
 		53C8740B20B3F71E007F68E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C8740A20B3F71E007F68E4 /* AppDelegate.swift */; };
 		53C8740D20B3F71E007F68E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C8740C20B3F71E007F68E4 /* ViewController.swift */; };
 		53C8741020B3F71E007F68E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C8740E20B3F71E007F68E4 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		532F37B420B40E9800EE7ACC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		532F37B820B411E700EE7ACC /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		53C8740720B3F71E007F68E4 /* iPuppyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPuppyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C8740A20B3F71E007F68E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53C8740C20B3F71E007F68E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		53C873FE20B3F71E007F68E4 = {
 			isa = PBXGroup;
 			children = (
+				532F37B820B411E700EE7ACC /* .gitignore */,
 				532F37B420B40E9800EE7ACC /* Cartfile */,
 				53C8740920B3F71E007F68E4 /* iPuppyApp */,
 				53C8740820B3F71E007F68E4 /* Products */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532F37B920B411E700EE7ACC /* .gitignore in Resources */,
 				53C8741520B3F71F007F68E4 /* LaunchScreen.storyboard in Resources */,
 				53C8741220B3F71F007F68E4 /* Assets.xcassets in Resources */,
 				532F37B520B40E9800EE7ACC /* Cartfile in Resources */,
