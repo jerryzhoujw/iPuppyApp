@@ -1,2 +1,2 @@
-git "jerryzhoujw/cat-names" "0.1.2"
-git "jerryzhoujw/dog-names" "0.1.5"
+github "jerryzhoujw/cat-names" "0.1.2"
+github "jerryzhoujw/dog-names" "0.1.7"
