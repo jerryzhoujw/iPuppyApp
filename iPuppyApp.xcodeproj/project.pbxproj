@@ -13,7 +13,6 @@
 		532F37C320B4158C00EE7ACC /* cat_names.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532F37C220B4158C00EE7ACC /* cat_names.framework */; };
 		532F37C620B419A400EE7ACC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532F37C520B419A300EE7ACC /* AddressBook.framework */; };
 		536790B020B4300800B007C3 /* dog_names.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5367909320B422E800B007C3 /* dog_names.framework */; };
-		536790B220B4300900B007C3 /* mouse_names.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536790B120B4300800B007C3 /* mouse_names.framework */; };
 		53C8740B20B3F71E007F68E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C8740A20B3F71E007F68E4 /* AppDelegate.swift */; };
 		53C8740D20B3F71E007F68E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C8740C20B3F71E007F68E4 /* ViewController.swift */; };
 		53C8741020B3F71E007F68E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C8740E20B3F71E007F68E4 /* Main.storyboard */; };
@@ -28,7 +27,6 @@
 		532F37C220B4158C00EE7ACC /* cat_names.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cat_names.framework; path = Carthage/Build/iOS/cat_names.framework; sourceTree = "<group>"; };
 		532F37C520B419A300EE7ACC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		5367909320B422E800B007C3 /* dog_names.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = dog_names.framework; path = Carthage/Build/iOS/dog_names.framework; sourceTree = "<group>"; };
-		536790B120B4300800B007C3 /* mouse_names.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mouse_names.framework; path = Carthage/Build/iOS/mouse_names.framework; sourceTree = "<group>"; };
 		53C8740720B3F71E007F68E4 /* iPuppyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPuppyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C8740A20B3F71E007F68E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53C8740C20B3F71E007F68E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +43,6 @@
 			files = (
 				532F37C320B4158C00EE7ACC /* cat_names.framework in Frameworks */,
 				536790B020B4300800B007C3 /* dog_names.framework in Frameworks */,
-				536790B220B4300900B007C3 /* mouse_names.framework in Frameworks */,
 				532F37C620B419A400EE7ACC /* AddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,7 +63,6 @@
 		532F37BD20B413A300EE7ACC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				536790B120B4300800B007C3 /* mouse_names.framework */,
 				5367909320B422E800B007C3 /* dog_names.framework */,
 				532F37C520B419A300EE7ACC /* AddressBook.framework */,
 				532F37C220B4158C00EE7ACC /* cat_names.framework */,
@@ -192,7 +188,6 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/dog_names.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/cat_names.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/mouse_names.framework",
 			);
 			outputPaths = (
 			);
